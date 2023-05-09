@@ -1,83 +1,155 @@
 body {
-    width: 100%;
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
+  min-width: 1400px;
+  background-color: black;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1150px;
+  margin: 0 auto;
+  width: 1150px;
 }
 
 .background {
-    position: relative;
-    width: 100%;
-    height: 765px;
-    background-image: url(../resources/project_image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+  position: relative;
+  margin-bottom: 150px;
+  width: 100%;
+  height: 765px;
+  background-image: url(../resources/project_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
 }
 
 .navi-header {
-    display: flex;
-    margin: 0 auto;
-    padding-top: 33px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 33px;
 }
 .logo {
-    display: block;
-    margin-right: 450px;
-    padding: 0px 12px;
-    width: 228px;
-    background-color: rgba(0, 255, 255, 0.699);
-    border-radius: 100px;
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 55px;
-    letter-spacing: -0.08em;
-    text-transform: uppercase;
-    text-align: center;
+  display: block;
+  margin-right: 450px;
+  padding: 0px 12px;
+  width: 228px;
+  background-color: rgba(0, 255, 255, 0.699);
+  border-radius: 100px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .nav-link {
-    margin-right: 50px;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
+  margin-right: 50px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
 }
 
 .nav-link:hover {
-    color: rgba(0, 255, 255, 0.699);
+  color: rgba(0, 255, 255, 0.699);
 }
 
 .about-wpapper {
-    position: relative;
+  position: relative;
 }
 
 .aboutme {
-    position: absolute;
-    top: 247px;
-    width: 430px;
-    height: 103px;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    letter-spacing: -0.03em;
+  position: absolute;
+  top: 247px;
+  width: 430px;
+  height: 103px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
 }
 
 .about-text {
-    position: absolute;
-    top: 378px;
-    width: 919px;
-    height: 205px;
-    color: rgba(0, 255, 255, 0.699);
-    font-size: 80px;
-    line-height: 70px;
-    letter-spacing: -0.036em;
+  position: absolute;
+  top: 378px;
+  width: 919px;
+  height: 205px;
+  color: rgba(0, 255, 255, 0.699);
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -0.036em;
+}
+
+.project-title {
+  margin-bottom: 40px;
+  width: 1048px;
+  height: 72px;
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.project-link {
+  display: block;
+  width: 1150px;
+  height: 550px;
+  border: 4px solid rgba(0, 255, 255, 0.699);
+  border-radius: 48px;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: rgba(0, 255, 255, 0.699);
+  box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.75);
+}
+
+.project {
+  margin: 3px 4px;
+  background-size: cover;
+  width: 1135px;
+  height: 537px;
+  background-image: url(../resources/Metrica.jpg);
+  border-radius: 40px;
+}
+.project-text {
+  padding-top: 410px;
+  padding-left: 50px;
+  color: aqua;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+}
+
+.project-subtitle {
+  padding-left: 50px;
+  color: aqua;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+}
+
+.btn {
+  display: block;
+  margin-top: 80px;
+  padding: 57px 85px;
+  width: 582px;
+  height: 153px;
+  color: black;
+  border: 1px solid rgba(0, 255, 255, 0.699);
+  background-color: rgba(0, 255, 255, 0.699);
+  border-radius: 25px;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+}
+.btn:hover {
+  color: rgba(0, 255, 255, 0.699);
+  background-color: black;
 }
