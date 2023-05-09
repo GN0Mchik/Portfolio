@@ -1,5 +1,6 @@
 body {
   min-width: 1400px;
+  height: 5000px;
   background-color: black;
   font-family: "IBM Plex Mono";
   font-style: normal;
@@ -85,7 +86,7 @@ body {
 }
 
 .project-title {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
   width: 1048px;
   height: 72px;
   color: #ffffff;
@@ -136,12 +137,13 @@ body {
 .btn {
   display: block;
   margin-top: 80px;
+  margin-bottom: 150px;
   padding: 57px 85px;
   width: 582px;
   height: 153px;
   color: black;
-  border: 1px solid rgba(0, 255, 255, 0.699);
-  background-color: rgba(0, 255, 255, 0.699);
+  border: 1px solid aqua;
+  background-color: aqua;
   border-radius: 25px;
   font-size: 30px;
   line-height: 39px;
@@ -150,6 +152,25 @@ body {
   letter-spacing: -0.03em;
 }
 .btn:hover {
-  color: rgba(0, 255, 255, 0.699);
+  color: aqua;
   background-color: black;
+}
+
+.text-title {
+  margin-bottom: 15px;
+  width: 651px;
+  color: aqua;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+}
+
+.text-subtitle {
+  margin-bottom: 60px;
+  width: 778px;
+  height: 145px;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
 }
