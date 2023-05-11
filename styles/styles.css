@@ -1,6 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 1400px;
-  height: 5000px;
   background-color: black;
   font-family: "IBM Plex Mono";
   font-style: normal;
@@ -233,4 +236,74 @@ body {
 
 .indent_service_background {
   margin-bottom: 150px;
+}
+
+.contact_backgroung_image {
+  margin-bottom: 150px;
+  width: 100%;
+  height: 717px;
+  border-radius: 37px;
+  background-color: #191c19;
+  background-image: url(../resources/contact_section.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.contact_text {
+  margin-left: 100px;
+  padding-top: 110px;
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.link_contact {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 100px;
+  width: 367px;
+  height: 54px;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.contact_icon {
+  padding-bottom: 7px;
+}
+.link_contact_text:hover {
+  border-bottom: 3px solid aqua;
+}
+
+.link_contact_text {
+  margin-left: 10px;
+  padding-bottom: 7px;
+  color: white;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+}
+
+.footer {
+  height: 223px;
+  border-radius: 37px 37px 0 0;
+  background-color: #ffffff;
+}
+.footer_title {
+  padding-top: 70px;
+  padding-left: 130px;
+  color: black;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.footer_subtitle {
+  margin-top: 66px;
+  margin-left: 130px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  opacity: 0.5;
 }
