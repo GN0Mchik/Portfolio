@@ -88,6 +88,25 @@ body {
   letter-spacing: -0.036em;
 }
 
+.project-metrica-two {
+  position: absolute;
+  margin-top: 672px;
+  margin-left: 874px;
+  width: 46px;
+  height: 104px;
+  background-image: url(../resources/metrika-arrow.png);
+  background-size: cover;
+}
+
+.project-link-metrica-two {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 28px;
+  width: 194px;
+  height: 136px;
+  background-image: url(../resources/metrika-two.png);
+}
+
 .project-title {
   margin-bottom: 45px;
   width: 1048px;
