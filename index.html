@@ -5,6 +5,7 @@
     <title>Korotaev</title>
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="page/index.css" />
     <link rel="icon" href="resources/Icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,190 +15,215 @@
     />
   </head>
   <body>
-    <section>
-      <div class="background">
+    <header>
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="https://gn0mchik.github.io/Portfolio/"
+            >KOROTAEV</a
+          >
+          <ul class="header__nav">
+            <li>
+              <a class="nav__link" href="#project">портфолио</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#competencies">компетенция</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#services">услуги</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contacts">контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="background">
+          <div class="background__2">
+            <div class="container">
+              <div class="about-wpapper">
+                <!-- <p class="aboutme">
+                  Разрабатываю имиджевые сайты для малого и среднего бизнеса,
+                  которые повышают престиж компании и позволяют выделиться на
+                  фоне конкурентов
+                </p>
+              </div>
+              <div class="about-wpapper">
+                <h1 class="about-text">
+                  Привет, я Максим — фронтенд разработчик и дизайнер сайтов
+                </h1> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
         <div class="container">
-          <div class="navi-header">
-            <a class="logo" href="https://gn0mchik.github.io/Portfolio/"
-              >KOROTAEV</a
-            >
-            <a class="nav-link" href="#project">портфолио</a>
-            <a class="nav-link" href="#competencies">компетенция</a>
-            <a class="nav-link" href="#services">услуги</a>
-            <a class="nav-link" href="#contacts">контакты</a>
+          <div class="project-metrica-two">
+            <a
+              class="project-link-metrica-two"
+              target="_blank"
+              href="https://gn0mchik.github.io/Metrica-v2/"
+            ></a>
           </div>
-          <div class="about-wpapper">
-            <p class="aboutme">
-              Разрабатываю имиджевые сайты для малого и среднего бизнеса,
-              которые повышают престиж компании и позволяют выделиться на фоне
-              конкурентов
-            </p>
+          <div>
+            <h2 class="project-title" id="project">Самые свежие проекты</h2>
           </div>
-          <div class="about-wpapper">
-            <h1 class="about-text">
-              Привет, я Максим — фронтенд разработчик и дизайнер сайтов
-            </h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="project-metrica-two">
           <a
-            class="project-link-metrica-two"
+            class="project-link"
             target="_blank"
-            href="https://gn0mchik.github.io/Metrica-v2/"
-          ></a>
+            href="https://gn0mchik.github.io/Metrica/"
+          >
+            <div class="project">
+              <h2 class="project-text">Metrica</h2>
+              <h2 class="project-subtitle">дизайн,верстка,настройка.</h2>
+            </div>
+          </a>
+          <a class="btn" href="#project">Смотреть все проекты</a>
         </div>
-        <div>
-          <h2 class="project-title" id="project">Самые свежие проекты</h2>
-        </div>
-        <a
-          class="project-link"
-          target="_blank"
-          href="https://gn0mchik.github.io/Metrica/"
-        >
-          <div class="project">
-            <h2 class="project-text">Metrica</h2>
-            <h2 class="project-subtitle">дизайн,верстка,настройка.</h2>
+      </section>
+      <section class="competence">
+        <div class="container">
+          <h2 class="project-title" id="competencies">Мои компетенции</h2>
+          <div>
+            <img src="resources/icon_html.png" />
+            <h2 class="text-title">HTML и CSS</h2>
+            <p class="text-subtitle">
+              это основа фронтенд разработки. Умение создавать и правильно
+              структурировать HTML-документы, а также применять стили к этим
+              документам на CSS, является обязательным навыком для каждого
+              фронтенд разработчика.
+            </p>
           </div>
-        </a>
-        <a class="btn" href="#project">Смотреть все проекты</a>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <h2 class="project-title" id="competencies">Мои компетенции</h2>
-        <div>
-          <img src="resources/icon_html.png" />
-          <h2 class="text-title">HTML и CSS</h2>
-          <p class="text-subtitle">
-            это основа фронтенд разработки. Умение создавать и правильно
-            структурировать HTML-документы, а также применять стили к этим
-            документам на CSS, является обязательным навыком для каждого
-            фронтенд разработчика.
-          </p>
-        </div>
-        <div>
-          <img src="resources/icon_js.png" />
-          <h2 class="text-title">JavaScript</h2>
-          <p class="text-subtitle">
-            это язык программирования, который используется для создания
-            динамического и интерактивного пользовательского интерфейса. Хороший
-            фронтенд разработчик должен быть знаком с основами JavaScript,
-            включая работу с DOM-деревом, асинхронными запросами и манипуляцией
-            данными на стороне клиента.
-          </p>
-        </div>
-        <div>
-          <img src="resources/icon_library.png" />
-          <h2 class="text-title">Работа с библиотеками и фреймворками</h2>
-          <p class="text-subtitle">
-            фронтенд разработчики должны быть знакомы с различными библиотеками
-            и фреймворками, такими как React, Angular, Vue и другими. Умение
-            использовать готовые решения, адаптировать их под нужды проекта и
-            расширять их функциональность, является очень важным навыком.
-          </p>
-        </div>
-        <div>
-          <img src="resources/icon_adaptation.png" />
-          <h2 class="text-title">
-            Разработка для мобильных устройств и адаптивная верстка
-          </h2>
-          <p class="text-subtitle indent_text-subtitle">
-            фронтенд разработчики должны быть знакомы с различными библиотеками
-            и фреймворками, такими как React, Angular, Vue и другими. Умение
-            использовать готовые решения, адаптировать их под нужды проекта и
-            расширять их функциональность, является очень важным навыком.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="service_title" id="services">
-          <h2>Помогаю реализовать широкий спектр задач</h2>
-        </div>
-        <div>
-          <div class="service_image">
-            <img class="picture_size" src="resources/service_image_1.png" />
+          <div>
+            <img src="resources/icon_js.png" />
+            <h2 class="text-title">JavaScript</h2>
+            <p class="text-subtitle">
+              это язык программирования, который используется для создания
+              динамического и интерактивного пользовательского интерфейса.
+              Хороший фронтенд разработчик должен быть знаком с основами
+              JavaScript, включая работу с DOM-деревом, асинхронными запросами и
+              манипуляцией данными на стороне клиента.
+            </p>
           </div>
-          <div class="service_background">
-            <h2 class="service_text">Разработка сайта под ключ</h2>
-            <p class="service_subtitle">
-              Это создание дизайн веб-сайтов, созданный для удобства
-              пользователя и решения бизнес-задач Сайты должны быть понятными и
-              удобными, ведь чем понятнее сайт, тем быстрее пользователь
-              совершит целевое действие
+          <div>
+            <img src="resources/icon_library.png" />
+            <h2 class="text-title">Работа с библиотеками и фреймворками</h2>
+            <p class="text-subtitle">
+              фронтенд разработчики должны быть знакомы с различными
+              библиотеками и фреймворками, такими как React, Angular, Vue и
+              другими. Умение использовать готовые решения, адаптировать их под
+              нужды проекта и расширять их функциональность, является очень
+              важным навыком.
+            </p>
+          </div>
+          <div>
+            <img src="resources/icon_adaptation.png" />
+            <h2 class="text-title">
+              Разработка для мобильных устройств и адаптивная верстка
+            </h2>
+            <p class="text-subtitle indent_text-subtitle">
+              фронтенд разработчики должны быть знакомы с различными
+              библиотеками и фреймворками, такими как React, Angular, Vue и
+              другими. Умение использовать готовые решения, адаптировать их под
+              нужды проекта и расширять их функциональность, является очень
+              важным навыком.
             </p>
           </div>
         </div>
-        <div>
-          <div class="service_image">
-            <img class="picture_size" src="resources/service_image_2.png" />
+      </section>
+      <section>
+        <div class="container">
+          <div class="service_title" id="services">
+            <h2>Помогаю реализовать широкий спектр задач</h2>
           </div>
-          <div class="service_background">
-            <h2 class="service_text">Верстка сайтов</h2>
-            <p class="service_subtitle">
-              Это процесс создания HTML-документов и применения к ним стилей на
-              CSS. Фронтенд разработчик может помочь создать привлекательный и
-              удобный интерфейс для вашего сайта
-            </p>
+          <div>
+            <div class="service_image">
+              <img class="picture_size" src="resources/service_image_1.png" />
+            </div>
+            <div class="service_background">
+              <h2 class="service_text">Разработка сайта под ключ</h2>
+              <p class="service_subtitle">
+                Это создание дизайн веб-сайтов, созданный для удобства
+                пользователя и решения бизнес-задач Сайты должны быть понятными
+                и удобными, ведь чем понятнее сайт, тем быстрее пользователь
+                совершит целевое действие
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="service_image">
+              <img class="picture_size" src="resources/service_image_2.png" />
+            </div>
+            <div class="service_background">
+              <h2 class="service_text">Верстка сайтов</h2>
+              <p class="service_subtitle">
+                Это процесс создания HTML-документов и применения к ним стилей
+                на CSS. Фронтенд разработчик может помочь создать
+                привлекательный и удобный интерфейс для вашего сайта
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="service_image">
+              <img class="picture_size" src="resources/service_image_3.png" />
+            </div>
+            <div class="service_background indent_service_background">
+              <h2 class="service_text">Разработка мобильного интерфейса</h2>
+              <p class="service_subtitle">
+                Это процесс создания интерактивных элементов на странице с
+                помощью JavaScript. Фронтенд разработчик может помочь создать
+                динамический и удобный пользовательский интерфейс для вашего
+                сайта или приложения.
+              </p>
+            </div>
           </div>
         </div>
-        <div>
-          <div class="service_image">
-            <img class="picture_size" src="resources/service_image_3.png" />
+      </section>
+      <section>
+        <div class="contact_backgroung_image" id="contacts">
+          <div>
+            <h2 class="contact_text">Для связи со мной:</h2>
           </div>
-          <div class="service_background indent_service_background">
-            <h2 class="service_text">Разработка мобильного интерфейса</h2>
-            <p class="service_subtitle">
-              Это процесс создания интерактивных элементов на странице с помощью
-              JavaScript. Фронтенд разработчик может помочь создать динамический
-              и удобный пользовательский интерфейс для вашего сайта или
-              приложения.
-            </p>
+          <div>
+            <a class="link_contact" href="https://www.instagram.com/gnomid_007/"
+              ><img class="contact_icon" src="resources/icon_inst.png" alt="" />
+              <h2 class="link_contact_text">instagram</h2>
+            </a>
+          </div>
+          <div>
+            <a class="link_contact" href="https://t.me/GN0M_007"
+              ><img
+                class="contact_icon"
+                src="resources/icon_telegram.png"
+                alt=""
+              />
+              <h2 class="link_contact_text">telegram</h2>
+            </a>
+          </div>
+          <div>
+            <a class="link_contact" href="https://github.com/GN0Mchik"
+              ><img
+                class="contact_icon"
+                src="resources/icon_github.png"
+                alt=""
+              />
+              <h2 class="link_contact_text">github</h2>
+            </a>
           </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="contact_backgroung_image" id="contacts">
-        <div>
-          <h2 class="contact_text">Для связи со мной:</h2>
-        </div>
-        <div>
-          <a class="link_contact" href="https://www.instagram.com/gnomid_007/"
-            ><img class="contact_icon" src="resources/icon_inst.png" alt="" />
-            <h2 class="link_contact_text">instagram</h2>
-          </a>
-        </div>
-        <div>
-          <a class="link_contact" href="https://t.me/GN0M_007"
-            ><img
-              class="contact_icon"
-              src="resources/icon_telegram.png"
-              alt=""
-            />
-            <h2 class="link_contact_text">telegram</h2>
-          </a>
-        </div>
-        <div>
-          <a class="link_contact" href="https://github.com/GN0Mchik"
-            ><img class="contact_icon" src="resources/icon_github.png" alt="" />
-            <h2 class="link_contact_text">github</h2>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section>
+      </section>
+    </main>
+    <footer>
       <div class="footer">
         <h2 class="footer_title">
           Портфолио фротнтенд-разработчика Максима Коротаева
         </h2>
         <h3 class="footer_subtitle">Все права защищены. 2023</h3>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
