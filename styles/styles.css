@@ -12,12 +12,19 @@ body {
   width: 1150px;
 }
 
+.header {
+  margin: 0 auto;
+  width: 1400px;
+  background: url(../resources/project_image.png) no-repeat center center /
+    cover;
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
-  padding: 33px 13px 0 13px;
+  padding: 33px 33px 0;
 }
-.logo {
+.header__logo {
   padding: 0px 12px;
   color: #000000;
   background-color: rgba(0, 255, 255, 0.699);
@@ -50,6 +57,13 @@ body {
 
 .nav__link:hover {
   color: rgba(0, 255, 255, 0.699);
+}
+
+.header__back {
+  background-image: url(../resources/Group7.png);
+  width: 1400px;
+  height: 787px;
+  margin-top: 40px;
 }
 
 .background {
