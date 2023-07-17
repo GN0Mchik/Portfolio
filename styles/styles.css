@@ -15,8 +15,6 @@ body {
 .header {
   margin: 0 auto;
   width: 1400px;
-  background: url(../resources/project_image.png) no-repeat center center /
-    cover;
 }
 
 .header__inner {
@@ -29,7 +27,6 @@ body {
   color: #000000;
   background-color: rgba(0, 255, 255, 0.699);
   border-radius: 100px;
-
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
@@ -59,71 +56,53 @@ body {
   color: rgba(0, 255, 255, 0.699);
 }
 
-.header__back {
-  background-image: url(../resources/Group7.png);
+.about {
+  margin: -88px auto;
+  background-image: url(../resources/Group4.png);
   width: 1400px;
-  height: 787px;
-  margin-top: 40px;
-}
-
-.background {
-  position: relative;
-  margin: 0 auto;
-  z-index: -1;
-  top: -88px;
-  width: 100%;
-  height: 765px;
-  background-image: url(../resources/project_image.png);
+  height: 935px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
 }
 
-.background__2 {
-  margin: 0 auto;
-  z-index: 2;
-  position: relative;
-  top: 543px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100%;
-  width: 100%;
-  height: 230px;
-  background-image: url(..//resources/BG.png);
-}
-
-.background__3 {
-  position: relative;
-  top: -442px;
-  left: 438px;
-  width: 523px;
-  height: 615px;
-  background-image: url(..//resources/Maskgroup.png);
-}
-
-.background__1 {
-  background-image: url(..//resources/HELLO.png);
-  background-repeat: no-repeat;
+.about__hello {
   position: absolute;
-  top: 150px;
-  left: 88px;
-  z-index: -10;
-  width: 620px;
-  height: 160px;
-  opacity: 0.8;
+  margin-top: 130px;
+  padding-left: 20px;
+  font-family: "Amatic SC", cursive;
+  color: rgba(57, 62, 70, 0.6);
+  font-size: 290px;
 }
-.color-text {
+
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  margin: 390px 0 0 33px;
+  position: absolute;
+}
+
+.about__title {
+  width: 520px;
+  height: 230px;
+  color: rgba(0, 255, 255, 0.699);
+  font-size: 45px;
+  line-height: 70px;
+  letter-spacing: -0.036em;
+}
+
+.about__title-color {
   color: #ffffff;
 }
 
-.border {
+.about__title-border {
   position: absolute;
-  width: 207px;
+  width: 203px;
   height: 7px;
   background-color: rgba(0, 173, 181, 1);
   border-radius: 5px;
 }
-.sizetext {
+.about__title-size-text {
   margin-top: 12px;
   width: 250px;
   color: #ffffff;
@@ -133,35 +112,15 @@ body {
   letter-spacing: -0.03em;
 }
 
-.about-wpapper {
-  position: relative;
-}
-
-.aboutme {
-  position: absolute;
-  top: 496px;
-  left: -350px;
-  width: 430px;
+.about__description {
+  width: 520px;
   height: 122px;
   color: #ffffff;
 
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.03em;
-}
-
-.about-text {
-  position: absolute;
-  top: 210px;
-  left: -350px;
-  width: 520px;
-  height: 230px;
-  color: rgba(0, 255, 255, 0.699);
-
-  font-size: 45px;
-  line-height: 70px;
-  letter-spacing: -0.036em;
 }
 
 .project-metrica-two {
