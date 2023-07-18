@@ -9,7 +9,8 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1150px;
+  width: 1400px;
+  padding: 0 125px;
 }
 
 .header {
@@ -286,7 +287,7 @@ body {
 
 .contact_backgroung_image {
   margin-bottom: 150px;
-  width: 100%;
+  width: 1400px;
   height: 717px;
   border-radius: 37px;
   background-color: #191c19;
@@ -331,6 +332,7 @@ body {
 }
 
 .footer {
+  width: 1400px;
   height: 223px;
   border-radius: 37px 37px 0 0;
   background-color: #ffffff;
