@@ -67,7 +67,7 @@ body {
 
 .about__hello {
   position: absolute;
-  margin-top: 130px;
+  margin-top: 118px;
   padding-left: 20px;
   font-family: "Amatic SC", cursive;
   color: rgba(57, 62, 70, 0.6);
@@ -116,33 +116,17 @@ body {
   width: 520px;
   height: 122px;
   color: #ffffff;
-
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.03em;
 }
 
-.project-metrica-two {
-  position: absolute;
-  margin-top: 672px;
-  margin-left: 874px;
-  width: 49px;
-  height: 109px;
-  background-image: url(../resources/metrika-arrow.png);
-  background-size: cover;
+.projects {
+  margin-top: 190px;
 }
 
-.project-link-metrica-two {
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 28px;
-  width: 194px;
-  height: 136px;
-  background-image: url(../resources/metrika-two.png);
-}
-
-.project-title {
+.project__title {
   margin-bottom: 45px;
   width: 1048px;
   height: 72px;
@@ -152,7 +136,7 @@ body {
   letter-spacing: -0.03em;
 }
 
-.project-link {
+.project__link {
   display: block;
   width: 1150px;
   height: 550px;
@@ -161,12 +145,12 @@ body {
   text-decoration: none;
 }
 
-.project-link:hover {
+.project__link:hover {
   background-color: rgba(0, 255, 255, 0.699);
   box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.75);
 }
 
-.project {
+.projects__list {
   margin: 3px 4px;
   background-size: cover;
   width: 1135px;
@@ -174,6 +158,19 @@ body {
   background-image: url(../resources/Metrica.png);
   border-radius: 40px;
 }
+
+.project__label {
+  position: absolute;
+  margin: 50px 0 0 43px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid aqua;
+  padding: 20px;
+  letter-spacing: -0.6px;
+  border-radius: 100px;
+}
+
 .project-text {
   padding-top: 410px;
   padding-left: 43px;
