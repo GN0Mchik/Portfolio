@@ -126,10 +126,10 @@ body {
   margin-top: 190px;
 }
 
-.project__title {
+.title {
+  margin-top: 150px;
   margin-bottom: 45px;
-  width: 1048px;
-  height: 72px;
+  width: 60%;
   color: #ffffff;
   font-size: 55px;
   line-height: 72px;
@@ -148,6 +148,7 @@ body {
 .project__link:hover {
   background-color: rgba(0, 255, 255, 0.699);
   box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.75);
+  transition: all 0.3s ease;
 }
 
 .projects__list {
@@ -171,7 +172,7 @@ body {
   border-radius: 100px;
 }
 
-.project-text {
+.project__name {
   padding-top: 410px;
   padding-left: 43px;
   color: aqua;
@@ -180,7 +181,7 @@ body {
   letter-spacing: -0.03em;
 }
 
-.project-subtitle {
+.project__works {
   padding-left: 43px;
   color: aqua;
   font-size: 35px;
@@ -188,10 +189,9 @@ body {
   letter-spacing: -0.03em;
 }
 
-.btn {
+.project__button {
   display: block;
   margin-top: 80px;
-  margin-bottom: 150px;
   padding: 57px 85px;
   width: 582px;
   height: 153px;
@@ -205,41 +205,39 @@ body {
   text-decoration: none;
   letter-spacing: -0.03em;
 }
-.btn:hover {
+.project__button:hover {
   color: aqua;
-  background-color: black;
+  background-color: var(--dark, #222831);
 }
 
-.text-title {
+.skill__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 50px;
+}
+
+.skill {
+  flex: 1 0 calc(50% - 50px);
+  max-width: 861px;
+}
+
+.skill__name {
   margin-bottom: 15px;
-  width: 651px;
   color: aqua;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 46px;
   letter-spacing: -0.03em;
 }
 
-.text-subtitle {
-  margin-bottom: 60px;
-  width: 778px;
-  height: 145px;
+.skill__description {
   color: #ffffff;
   font-size: 22px;
   line-height: 29px;
   letter-spacing: -0.03em;
 }
 
-.indent_text-subtitle {
-  margin-bottom: 150px;
-}
-
-.service_title {
-  width: 403px;
-  height: 92px;
-  color: #ffffff;
-  font-size: 35px;
-  line-height: 46px;
-  letter-spacing: -0.03em;
+.service-title {
 }
 
 .service_image {
