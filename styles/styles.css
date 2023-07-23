@@ -123,10 +123,6 @@ body {
   letter-spacing: -0.03em;
 }
 
-.projects {
-  margin-top: 190px;
-}
-
 .title {
   margin-top: 150px;
   margin-bottom: 45px;
@@ -238,8 +234,17 @@ body {
   letter-spacing: -0.03em;
 }
 
+.service__title {
+  margin-bottom: 80px;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .service_image {
-  margin-top: 74px;
   padding: 5px;
   width: 1150px;
   height: 200px;
@@ -279,10 +284,6 @@ body {
   font-size: 22px;
   line-height: 29px;
   letter-spacing: -0.03em;
-}
-
-.indent_service_background {
-  margin-bottom: 150px;
 }
 
 .contact_backgroung_image {
