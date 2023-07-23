@@ -207,6 +207,10 @@ body {
   background-color: var(--dark, #222831);
 }
 
+.skill__title {
+  margin-bottom: 80px;
+}
+
 .skill__list {
   width: 100%;
   display: flex;
