@@ -172,7 +172,7 @@ body {
 .project__name {
   padding-top: 410px;
   padding-left: 43px;
-  color: aqua;
+  color: #ffffff;
   font-size: 35px;
   line-height: 46px;
   letter-spacing: -0.03em;
@@ -180,7 +180,7 @@ body {
 
 .project__works {
   padding-left: 43px;
-  color: aqua;
+  color: #ffffff;
   font-size: 35px;
   line-height: 46px;
   letter-spacing: -0.03em;
@@ -192,7 +192,7 @@ body {
   padding: 57px 85px;
   width: 582px;
   height: 153px;
-  color: black;
+  color: var(--dark, #222831);
   border: 1px solid aqua;
   background-color: aqua;
   border-radius: 25px;
@@ -242,13 +242,19 @@ body {
   margin-bottom: 80px;
 }
 
-.services__list {
+.service__list {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.service_image {
+.service__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service {
   padding: 5px;
   width: 1150px;
   height: 200px;
@@ -257,22 +263,23 @@ body {
   text-align: center;
 }
 
-.picture_size {
+.service__image {
   width: 1130px;
   height: 184px;
 }
 
-.service_background {
-  margin-top: 5px;
+.service__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   width: 1150px;
   height: 283px;
   background: #191c19;
   border-radius: 37px;
 }
 
-.service_text {
+.service__name {
   padding: 40px 0 0 40px;
-  width: 1048px;
   height: 114px;
   color: aqua;
   font-size: 55px;
@@ -280,10 +287,9 @@ body {
   letter-spacing: -0.03em;
 }
 
-.service_subtitle {
-  padding: 15px 0 0 40px;
-  width: 749px;
-  height: 116px;
+.service__description {
+  padding-left: 40px;
+  width: 65%;
   color: #ffffff;
   font-size: 22px;
   line-height: 29px;
@@ -291,8 +297,8 @@ body {
 }
 
 .contact_backgroung_image {
-  margin-bottom: 150px;
-  width: 1400px;
+  margin: 0 auto;
+  max-width: 2000px;
   height: 717px;
   border-radius: 37px;
   background-color: #191c19;
