@@ -298,11 +298,12 @@ body {
 
 .contact_backgroung_image {
   margin: 0 auto;
+  margin-top: 150px;
   max-width: 2000px;
   height: 717px;
   border-radius: 37px;
   background-color: #191c19;
-  background-image: url(../resources/contact_section.png);
+  background-image: url(../resources/Group2.png);
   background-repeat: no-repeat;
   background-position: 100%;
 }
@@ -343,7 +344,9 @@ body {
 }
 
 .footer {
-  width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 2000px;
   height: 223px;
   border-radius: 37px 37px 0 0;
   background-color: #ffffff;
